@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="25px" height="25px" viewBox="0 0 25 25" enable-background="new 0 0 25 25" xml:space="preserve">
+<g id="instagram">
+	<g>
+		<path fill="#636464" d="M7.4,6.5H6.5v-6h-1v6h-1v-6h-1v6h-1V0.6c-1.1,0.2-2,1.2-2,2.4v4.5h6.1C6.8,7.1,7.1,6.8,7.4,6.5z"/>
+		<path fill="#636464" d="M19.7,11.5c0,3.9-3.2,7.2-7.2,7.2s-7.2-3.2-7.2-7.2c0-1.1,0.2-2.1,0.7-3H0.5V22c0,1.4,1.1,2.5,2.5,2.5h19
+			c1.4,0,2.5-1.1,2.5-2.5V8.5H19C19.4,9.4,19.7,10.4,19.7,11.5z"/>
+		<path fill="#636464" d="M22,0.5H7.5v5.9c1.3-1.301,3.1-2,5-2c2.5,0,4.6,1.3,5.9,3.199h6.1V3.1C24.5,1.6,23.4,0.5,22,0.5z
+			 M22.5,5.5c0,0.5-0.5,1-1,1h-2c-0.5,0-1-0.5-1-1v-2c0-0.5,0.5-1,1-1h2c0.5,0,1,0.5,1,1V5.5z"/>
+	</g>
+	<path opacity="0.3" fill="#010101" enable-background="new    " d="M22.5,5.5c0,0.5-0.5,1-1,1h-2c-0.5,0-1-0.5-1-1v-2
+		c0-0.5,0.5-1,1-1h2c0.5,0,1,0.5,1,1V5.5z"/>
+	<rect x="6.5" y="0.5" opacity="0.5" fill="#010101" enable-background="new    " width="1" height="6"/>
+	<rect x="4.5" y="0.5" opacity="0.5" fill="#010101" enable-background="new    " width="1" height="6"/>
+	<rect x="2.5" y="0.5" opacity="0.5" fill="#010101" enable-background="new    " width="1" height="6"/>
+	<g opacity="0.3">
+		<g>
+			<path fill="#010101" d="M12.5,7.2c-0.5,0-0.9,0.1-1.3,0.2C11.7,7.8,12,8.4,12,9c0,1.1-0.9,2-2,2c-0.7,0-1.3-0.3-1.6-0.8
+				C8.3,10.6,8.2,11,8.2,11.5c0,2.4,1.9,4.3,4.3,4.3c2.4,0,4.3-1.899,4.3-4.3S14.9,7.2,12.5,7.2z"/>
+		</g>
+		<g>
+			<path opacity="0.5" fill="#010101" enable-background="new    " d="M12.5,7.2c-0.5,0-0.9,0.1-1.3,0.2C11.7,7.8,12,8.4,12,9
+				c0,1.1-0.9,2-2,2c-0.7,0-1.3-0.3-1.6-0.8C8.3,10.6,8.2,11,8.2,11.5c0,2.4,1.9,4.3,4.3,4.3c2.4,0,4.3-1.899,4.3-4.3
+				S14.9,7.2,12.5,7.2z"/>
+		</g>
+	</g>
+	<path fill="#010101" d="M12.5,6C9.5,6,7,8.5,7,11.5S9.5,17,12.5,17s5.5-2.5,5.5-5.5S15.5,6,12.5,6z M12.5,15.8
+		c-2.4,0-4.3-1.899-4.3-4.3s1.9-4.3,4.3-4.3c2.4,0,4.3,1.899,4.3,4.3S14.9,15.8,12.5,15.8z"/>
+</g>
+</svg>

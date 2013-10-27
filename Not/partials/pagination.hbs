@@ -1,0 +1,9 @@
+<nav class="pagination" role="pagination">
+    {{#if prev}}
+        <a class="newer-posts" href="{{pageUrl prev}}">نوشته های جدید تر</a>
+    {{/if}}
+    <span class="page-number">صفحه {{page}} از {{pages}}</span>
+    {{#if next}}
+        <a class="older-posts" href="{{pageUrl next}}">نوشته های قدیمی تر</a>
+    {{/if}}
+</nav>

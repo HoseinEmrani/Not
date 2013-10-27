@@ -1,0 +1,395 @@
+/* ==================================
+	
+	Not - Just a Persian theme for ghost.
+
+	Author : Hossein Emrani (twitter: @hoseiin, fb.com/hoseinemrani)
+	First persian theme released for ghost. 
+	Download an use it for free.
+	Share it with everyone, if you liked Not.
+	Make it beautiful with your great posts!
+	
+=================================== */
+
+@font-face {
+    font-family: 'yekan';
+    src: url('../fonts/yekan/yekan.ttf') format('truetype'); /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+/* Some basic styles */
+
+body {
+	margin:auto;
+	background: #f2f2f2;
+	font-family: 'yekan';
+	direction: rtl;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.container {
+	width: 930px;
+	margin: auto;
+}
+
+/* Header */
+
+.head {
+	padding-bottom: 30px;
+	border-bottom: 1px dashed #e0e0e0;
+	overflow: hidden;
+}
+
+.head header {
+	margin: auto;
+}
+
+.head header h1 {
+	text-align: right;
+	margin:30px auto 10px;
+	font-size: 36px;
+	display: inline-block;
+	font-weight: normal;
+	color: #e74c3c;
+}
+
+.head header h1 .color {
+	color:#c0392b;
+}
+
+.head header h1 .reverse {
+	-webkit-transform: rotate(-180deg);
+}
+
+.head header .paper-line,
+.foot footer .paper-line {
+	height: 1px;
+	background: #f9f9f9;
+	border-bottom: 1px dashed #ddd;
+	margin-top: 50px;
+}
+
+.head header hgroup {
+	text-align: right;
+	float: right;	
+}
+
+.head header h2 {
+	text-align: center;
+	margin:0px auto 10px;
+	color: #282828;
+	font-size: 20px;
+	font-weight: normal;
+	color: #34495e;	
+	display: inline-block;
+	white-space: pre;
+}
+
+.head header h2 .typeline {
+	-webkit-animation:typeLine 1.3s infinite ease;
+	float: left;
+}
+
+@-webkit-keyframes typeLine {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.head .social {
+	float: left;
+	margin: 48px auto 0;
+}
+
+.head .social a {
+	width: 25px;
+	height: 25px;
+	margin: 0 3px;
+	display: inline-block;
+	opacity: .5;
+	transition:all 0.25s ease;
+	-webkit-transition:all 0.25s ease;
+	-moz-transition:all 0.25s ease;
+	-ms-transition:all 0.25s ease;
+	-o-transition:all 0.25s ease;
+}
+
+.head .social a:hover {
+	opacity: 1;
+}
+
+.head .social a[href *="facebook"] {
+	background: url(../images/facebook.svg) center no-repeat;
+}
+
+.head .social a[href *="twitter"] {
+	background: url(../images/twitter.svg) center no-repeat;
+}
+
+.head .social a[href *="github"] {
+	background: url(../images/github.svg) center no-repeat;
+}
+
+
+/* Contents typography and styles */
+
+.content {
+	margin-top: 50px;
+	direction: rtl;
+}
+
+.content article {
+	margin: auto;
+	padding: 0 30px;
+}
+
+.content article h1 {
+	font-size: 32px;
+	color: #2c3e50;
+	font-weight: normal;
+	position: relative;
+	margin:10px auto;
+}
+
+.content article h1:before {
+	content: ".";
+	color:#c0392b;
+	position: absolute;
+	right: -20px;
+	top:-10px;
+	font-size: 40px;
+}
+
+.content article p {
+	margin:auto;
+	padding:5px 30px;
+	color: #34495e;
+	font-size: 16px;
+}
+
+.content article .time {
+	font-size: 16px;
+	color: #7f8c8d;
+	font-weight: normal;
+	position: relative;
+	margin:5px auto;	
+}
+
+.content article img {
+	width: 780px;
+	margin: 10px;
+	border:3px solid #ddd;
+}
+.content article img[class *="pull-"] {
+	width: 300px;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.content article footer {
+	text-align: center;
+	margin:60px auto;
+}
+
+.content article footer a.more {
+	padding:5px 15px;
+	background: none;
+	color: #ddd;
+	font-size: 25px;
+}
+
+.content article footer a.more:hover {
+	color: #16a085;
+}
+
+.content .clr {
+	margin: 30px auto;
+	text-align: center;
+	font-size: 42px;
+	color: #999;
+}
+
+.content article code {
+	padding: 1px 3px 3px;
+	background: #fff;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	color: #666;
+}
+
+.content article a:not(.more) {
+	border-bottom: 1px solid #ddd;
+	color: #666;
+}
+
+.content article a:not(.more):hover {
+	color: #e74c3c !important;
+}
+
+.content article * {
+	font-weight: normal !important;
+}
+
+.content blockquote {
+	border-right: 7px solid #ddd;
+}
+
+.content article b,
+.content article strong {
+	font-weight: bold !important;
+}
+
+/* Footer Styles */
+
+.foot {
+	border-top: 1px dashed #e0e0e0;
+	margin-top:50px;
+}
+
+.foot footer h6 {
+	font-size: 15px;
+	float: right;
+	font-weight: normal;
+	margin: 30px 0;
+}
+
+.ghost {
+	float: left;
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	margin: 16px 0;
+	direction: ltr;
+	opacity: 0.7;
+	background: url(../images/ghost.svg) center no-repeat;
+	transition:all 0.25s ease;
+	-webkit-transition:all 0.25s ease;
+	-moz-transition:all 0.25s ease;
+	-o-transition:all 0.25s ease;
+	-ms-transition:all 0.25s ease;
+}
+
+.ghost:hover {
+	opacity: 1;
+}
+
+/* Pagination */
+
+.pagination {
+	text-align: center;
+	color: #c0c0c0;
+}
+
+.pagination .newer-posts,
+.pagination .older-posts {
+	transition:all 0.25s ease;
+	-webkit-transition:all 0.25s ease;
+	-moz-transition:all 0.25s ease;
+	-ms-transition:all 0.25s ease;
+	-o-transition:all 0.25s ease;
+}
+
+.pagination .newer-posts:hover,
+.pagination .older-posts:hover {
+	color: #16a085;
+}
+.pagination .newer-posts {
+	float: right;
+}
+
+.pagination .older-posts {
+	float: left;
+}
+
+/* Responsive > Tablets */
+
+@media (max-width: 929px) {
+	.container {
+		width: auto;
+		margin:auto 15px;
+	}
+
+	.content article img {
+		width: 98%;
+		margin: auto;
+	}
+
+	.head .social {
+		margin-left: 15px;
+	}
+
+	.head hgroup {
+		margin-right: 15px;
+	}
+
+	.content article {
+		padding: 0 20px;
+	}
+
+	.content article p {
+		padding: 0;
+	}
+
+	.foot footer {
+		text-align: center;
+	}
+
+	.foot h6 {
+		float: initial !important;
+		margin:19ox auto !important;
+		text-align: center;
+	}
+
+	.foot .ghost {
+		margin:auto;
+		float: initial;
+		background-position: center;
+		background-position: 15px -10px;
+	}
+}
+
+/* Responsive > Smartphones */
+
+@media (max-width: 540px) {
+	.head .social {
+		margin-left: 15px;
+		float: initial;
+		display: block;
+		margin: 15px auto 0px;
+		text-align: center;
+	}
+
+	.head hgroup {
+		margin-right: 15px;
+		float: initial !important;
+		text-align: center !important;
+	}
+
+	.foot h6 {
+		float: initial !important;
+		margin: 19ox auto !important;
+		text-align: center;
+	}
+
+	.foot .ghost {
+		margin: auto;
+		float: initial;
+		background-position: center;
+		background-position: 15px -10px;
+	}
+
+}

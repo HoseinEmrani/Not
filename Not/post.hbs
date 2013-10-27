@@ -1,0 +1,23 @@
+{{!< default}}
+
+<section class="content">
+	<section class="container">
+		
+		{{#post}}
+
+		<article class="{{post_class}}" id="{{id}}">
+			<hgroup>
+				<div class="time">{{date format='YYYY-MM-DD'}}</div>
+				<h1>{{{title}}}</h1>	    				
+			</hgroup>
+
+			{{! short content area}}
+
+			{{content}}
+
+		</article>
+		
+		{{/post}}
+
+	</section>
+</section>

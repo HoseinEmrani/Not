@@ -1,0 +1,28 @@
+{{!< default}}
+
+<section class="content">
+	<section class="container">
+		
+		{{#foreach posts}}
+
+		<article class="{{post_class}}">
+			<hgroup>
+				<div class="time">{{date format='YYYY-MM-DD'}}</div>
+				<h1>{{{title}}}</h1>	    				
+			</hgroup>
+
+			{{! short content area}}
+
+			<p>{{excerpt characters="50"}}&hellip;</p>
+
+			<footer>
+				<a class="more" href="{{url}}">ادامه مطلب</a>
+			</footer>
+		</article>
+		<div class="clr">...</div>
+		
+		{{/foreach}}
+		
+		{{pagination}}
+	</section>
+</section>
