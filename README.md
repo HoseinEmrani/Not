@@ -1,6 +1,6 @@
 Not
 ===============
-### A Persian minimal and responsive theme for Ghost bloging platform.
+### A Persian minimal and responsive theme for Ghost blogging platform.
 
 When I fell in love with the Ghost blogging platform decided to design the first Persian theme for it and share for free! I call it `Not` because you don't see anything extra but the words. <br/>
 Use it for free! Share it with everyone!
